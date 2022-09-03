@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'passion-one';
+    src: url("fonts/PassionOne-Bold.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'sriracha' ;
+    src: url('fonts/Sriracha-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+*{margin: 0px;
+padding: 0px;}
+body{
+    min-width: 320px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 42%);
+}
